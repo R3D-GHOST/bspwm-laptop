@@ -19,7 +19,6 @@ banner = """
 | |__| (_| | |_) | || (_) | |_) |_____\ V  V / | |  | |
 |_____\__,_| .__/ \__\___/| .__/       \_/\_/  |_|  |_|
            |_|            |_|                          
-
 """
 #Varibles
 def req():
@@ -72,7 +71,10 @@ def bspwm():
     os.system("cp examples/sxhkdrc ~/.config/sxhkd/")
     os.system("sudo rm -r contrib/ doc/ examples/ src/ grab.o helpers.o LICENSE Makefile parse.o README.md Sourcedeps sxhkd sxhkd.o types.o VERSION")
     os.system("sudo apt install kitty ; sudo apt install zsh ")
-    print("[+] Instalacion Polybar Rofi Picom... Finalizada")
+    os.system("cp Hack.zip .")
+    os.system("unzip Hack.zip")
+    os.system("sudo mv *.ttf /usr/share/fonts")
+    os.system("rm *.zip")
 #menu
 os.system('clear')
 print(azul+banner)
