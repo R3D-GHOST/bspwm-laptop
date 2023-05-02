@@ -1,6 +1,23 @@
-----------------------------------------
-bspwmbspwm minimalist for laptop
+#bspwm minimalist for laptop
 
 
+.....................................
+#Desktop
+![desktop](https://user-images.githubusercontent.com/94316140/235755417-47a408dd-6eed-498a-8cce-f9c32207dd21.png)
+.....................................
 
-![ventanas-flotantes](https://user-images.githubusercontent.com/94316140/231570141-46c4ed3c-505a-4f10-a56e-f9d972a01e91.png)
+....................................
+#Wifi menu
+![wifi](https://user-images.githubu![i3loock](https://user-images.githubusercontent.com/94316140/235755942-5045ac82-40d7-4988-8fa0-180dd84eb068.png)
+sercontent.com/94316140/235755601-add6dbdb-e79a-47fc-a3a7-cc66d026b911.png)
+....................................
+
+....................................
+#Powermenu
+![powermenu](https://user-images.githubusercontent.com/94316140/235755800-349b49a8-a6a3-4f05-bb53-6105dd119536.png)
+....................................
+
+....................................
+#I3lock
+![i3loock](https://user-images.githubusercontent.com/94316140/235755977-ea14230f-199e-4312-a0ab-d0210c5f87b9.png)
+....................................
