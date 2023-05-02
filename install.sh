@@ -68,7 +68,7 @@ rm *.zip
 
 # Copiando Archivos de Configuración
 
-sudo cp -r /.config ~/.config/
+sudo cp -r .config ~/
 
 # Plugins ZSH
 
