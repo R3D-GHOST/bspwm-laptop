@@ -17,7 +17,11 @@ sudo apt install -y meson libxext-dev libxcb1-dev libxcb-damage0-dev libxcb-xfix
 
 # Instalamos paquetes adionales
 
-sudo apt install -y feh scrot scrub zsh rofi xclip bat locate neofetch wmname acpi bspwm sxhkd imagemagick ranger kitty
+sudo apt install -y feh scrot scrub zsh rofi xclip bat locate neofetch wmname acpi bspwm sxhkd imagemagick ranger 
+
+# Instalamos i3lock-fancy
+
+sudo apt install -y i3lock-fancy
 
 # Creando carpeta de Reposistorios
 
@@ -90,8 +94,8 @@ for user in /home/*; do sudo chown -R "$(basename $user):$(basename $user)" /roo
 chmod +x ~/.config/bspwm/bspwmrc
 chmod +x ~/.config/bspwm/scripts/bspwm_resize
 chmod +x ~/.config/bin/ethernet_status.sh
-chmod +x ~/.config/bin/htb_status.sh
-chmod +x ~/.config/bin/htb_target.sh
+chmod +x ~/.config/bin/powermenu.sh
+chmod +x ~/.config/bin/rofi-wifi-menu.sh
 chmod +x ~/.config/polybar/launch.sh
 
 # Removiendo Repositorio
