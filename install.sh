@@ -70,6 +70,16 @@ rm *.zip
 
 cp -r .config /home/$USER/
 
+# Asignamos Permisos a los Scritps
+
+chmod +x ~/.config/bspwm/bspwmrc
+chmod +x ~/.config/bspwm/scripts/bspwm_resize
+chmod +x ~/.config/bin/ethernet_status.sh
+chmod +x ~/.config/bin/powermenu.sh
+chmod +x ~/.config/bin/rofi-wifi-menu.sh
+chmod +x ~/.config/polybar/launch.sh
+
+
 # Plugins ZSH
 
 sudo apt install -y zsh-syntax-highlighting zsh-autosuggestions zsh-autocomplete
