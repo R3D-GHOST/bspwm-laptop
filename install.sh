@@ -17,7 +17,7 @@ sudo apt install -y meson libxext-dev libxcb1-dev libxcb-damage0-dev libxcb-xfix
 
 # Instalamos paquetes adionales
 
-sudo apt install -y feh scrot scrub zsh rofi xclip bat locate neofetch wmname acpi bspwm sxhkd imagemagick ranger 
+sudo apt install -y feh scrot scrub zsh rofi xclip bat locate neofetch wmname acpi bspwm sxhkd imagemagick ranger polybar
 
 # Instalamos i3lock-fancy
 
