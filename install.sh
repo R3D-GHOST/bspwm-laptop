@@ -68,10 +68,14 @@ rm *.zip
 
 # Copiando Archivos de Configuración
 
-cp -r .config /home/$USER/
+cp -r .config/* /home/$USER/.config/
 
 # Asignamos Permisos a los Scritps
-
+sudo su
+sleep 2
+exit
+cd
+sleep 1
 chmod +x ~/.config/bspwm/bspwmrc
 chmod +x ~/.config/bspwm/scripts/bspwm_resize
 chmod +x ~/.config/bin/ethernet_status.sh
