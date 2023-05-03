@@ -103,17 +103,6 @@ for user in /home/*; do sudo usermod --shell /usr/bin/zsh "$(basename $user)"; d
 
 for user in /home/*; do sudo chown -R "$(basename $user):$(basename $user)" /root; sudo chown -R "$(basename $user):$(basename $user)" /root/.cache; sudo chown -R "$(basename $user):$(basename $user)" /root/.local; done
 
-# Asignamos Permisos a los Scritps
-
-cd /
-cd /home/$USER/
-chmod +x ~/.config/bspwm/bspwmrc
-chmod +x ~/.config/bspwm/scripts/bspwm_resize
-chmod +x ~/.config/bin/ethernet_status.sh
-chmod +x ~/.config/bin/powermenu.sh
-chmod +x ~/.config/bin/rofi-wifi-menu.sh
-chmod +x ~/.config/polybar/launch.sh
-
 # Removiendo Repositorio
 
 rm -rf ~/github
