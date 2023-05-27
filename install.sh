@@ -23,6 +23,13 @@ sudo apt install -y feh scrot scrub zsh rofi xclip bat locate neofetch wmname ac
 
 sudo apt install -y i3lock-fancy
 
+# Instalamos las HackNerdFonts
+
+cp Hack.zip .
+unzip Hack.zip
+sudo mv *.ttf /usr/share/fonts
+rm *.zip
+
 # Creando carpeta de Reposistorios
 
 mkdir ~/github
@@ -58,13 +65,6 @@ echo 'source ~/.powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
 # Instalando p10k root
 
 sudo git clone --depth=1 https://github.com/romkatv/powerlevel10k.git /root/.powerlevel10k
-
-# Instalamos las HackNerdFonts
-
-cp Hack.zip .
-unzip Hack.zip
-sudo mv *.ttf /usr/share/fonts
-rm *.zip
 
 # Copiando Archivos de Configuración
 
